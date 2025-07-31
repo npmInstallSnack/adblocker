@@ -1,0 +1,12 @@
+iframe[src*="ads"] {
+  display: none !important;
+}
+iframe[src*="doubleclick"] {
+  display: none !important;
+}
+div[id^="ad-"] {
+  display: none !important;
+}
+div[class^="ad-"] {
+  display: none !important;
+}
